@@ -1,122 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chayce O'Neal | Technologist</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: linear-gradient(145deg, #ffffff 0%, #f0f0f0 100%);
-      color: #1a1a1a;
-    }
-    header {
-      background: rgba(0, 0, 0, 0.85);
-      color: #fff;
-      padding: 2rem;
-      text-align: center;
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
-    }
-    section {
-      padding: 2rem 1rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    section h2 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      color: #000;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    .card {
-      background: rgba(255, 255, 255, 0.7);
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
-      border-radius: 12px;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-    }
-    footer {
-      background: rgba(245, 245, 245, 0.95);
-      color: #666;
-      padding: 2rem;
-      text-align: center;
-      font-size: 0.9rem;
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
-    }
-    a {
-      color: #007aff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Chayce O'Neal</h1>
-    <p>Technologist • Builder • Bigfoot of the Internet</p>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chayce O'Neal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-  <section>
-    <div class="card">
+      body {
+        font-family: 'Inter', sans-serif;
+        background: linear-gradient(to right, #f9f9f9, #f0f0f0);
+        color: #111;
+        line-height: 1.6;
+        padding: 2rem;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+
+      header h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+
+      header p {
+        font-size: 1.25rem;
+        color: #555;
+      }
+
+      .section {
+        max-width: 700px;
+        margin: 2rem auto;
+        background: rgba(255, 255, 255, 0.65);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      }
+
+      .section h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .section p {
+        font-size: 1rem;
+        color: #333;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 4rem;
+        font-size: 0.875rem;
+        color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <header data-aos="fade-down">
+      <h1>Chayce O'Neal</h1>
+      <p>Building elegant tech systems for real-world chaos.</p>
+    </header>
+
+    <div class="section" data-aos="fade-up">
       <h2>About Me</h2>
-      <p>With over a decade of IT leadership, I specialize in building and scaling corporate technology solutions, particularly within high-growth startup environments. I focus on operationalizing IT functions, designing robust SaaS architectures, and cultivating lean, highly skilled teams of IT generalists.</p>
-      <p>My expertise spans identity solutions, workplace technology builds, MDM, and governance — all aimed at driving efficient, scalable IT operations.</p>
+      <p>
+        I'm a technologist with over a decade of IT leadership experience. I’ve scaled infrastructure and people at companies like Apple, Kabbage, and Reddit. My focus is on building systems that disappear into the background — seamless SaaS integrations, resilient compliance, and zero-friction internal tools.
+      </p>
     </div>
 
-    <div class="card">
+    <div class="section" data-aos="fade-up">
       <h2>What I Bring to the Table</h2>
-      <ul>
-        <li><strong>SaaS Guru:</strong> Led or implemented 350+ SaaS platforms.</li>
-        <li><strong>Workplace Technologist:</strong> Built efficient tech environments — from laptops to networks.</li>
-        <li><strong>Strategic Leadership:</strong> Partnered with exec teams to select optimal solutions.</li>
-        <li><strong>Compliance & Security:</strong> Led SOX, SOC2, and ISO27001 efforts for IPO readiness.</li>
-        <li><strong>Team Builder:</strong> Assembled high-performance generalist IT teams with exceptional support instincts.</li>
-      </ul>
+      <p>
+        ✅ Experience leading lean, high-output teams in hypergrowth<br />
+        ✅ Strong intuition for system design, automation, and security<br />
+        ✅ Passion for clean processes and calm operations<br />
+        ✅ Deep belief in tools that actually help people work better
+      </p>
     </div>
 
-    <div class="card">
-      <h2>My Journey</h2>
-      <p>From Apple’s Genius Bar to IT leadership at Kabbage and Reddit, my career has been defined by scaling IT from the ground up. I’ve designed support systems, implemented global workplace infrastructure, and helped startups navigate toward IPO.</p>
-      <p>I’ve built teams that can solve anything from an SSO config issue to an MDM policy failure — and teach others how to do it, too.</p>
+    <div class="section" data-aos="fade-up">
+      <h2>Now</h2>
+      <p>
+        I’m designing a more personal kind of website — part resume, part sandbox. If you’re into thoughtful software, weird side projects, or building systems that stay out of the way, let’s talk.
+      </p>
     </div>
 
-    <div class="card">
-      <h2>Philosophy</h2>
-      <p>I believe generalists make the best IT teams. Think DevOps for SaaS. SaaSOps. We handle SAML configs, Zoom outages, MDM deploys — and do it with empathy, speed, and clarity. IT should scale with the company, not slow it down.</p>
-    </div>
+    <footer>
+      &copy; 2025 Chayce O'Neal — Built with HTML, CSS, and AOS
+    </footer>
 
-    <div class="card">
-      <h2>Why Bigfoot?</h2>
-      <p>Bigfoot of the Internet. To me, it's a metaphor: know your digital footprint. Stay private, stay secure. I care deeply about helping others protect themselves online. Want to get started? Visit <a href="https://www.privacyguides.org" target="_blank">Privacy Guides</a>. Then let’s grab coffee.</p>
-    </div>
-
-    <div class="card">
-      <h2>Let's Connect</h2>
-      <p>Open to challenges, conversations, and collaborations. Reach me on <a href="https://www.linkedin.com/in/chayceoneal/" target="_blank">LinkedIn</a>.</p>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Chayce O'Neal. Built with curiosity and coffee.</p>
-  </footer>
-</body>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: true,
+      });
+    </script>
+  </body>
 </html>
